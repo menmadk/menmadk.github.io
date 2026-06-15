@@ -11,3 +11,10 @@ article {
   line-height: 1.7;
   word-break: keep-all;
 }
+
+body {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
