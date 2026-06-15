@@ -198,7 +198,7 @@ plugins:
     enabled: true
     options:
       links:
-        LinkedIn: https://www.linkedin.com/in/menmad-k-887a85416
+        LinkedIn: https://www.linkedin.com/in/menmadk
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
