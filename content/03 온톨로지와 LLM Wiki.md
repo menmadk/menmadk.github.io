@@ -1,5 +1,5 @@
 ---
-title: 03 온톨로지와 LLM Wiki - AI 시대의 궁극적 지식 관리
+title: 03 온톨로지와 LLM Wiki
 date: 2026-06-15
 tags:
   - 전략기획
