@@ -133,8 +133,9 @@ plugins:
   - source: github:quartz-community/graph
     enabled: true
     layout:
-      position: right
+      position: afterBody
       priority: 10
+      condition: is-index
   - source: github:quartz-community/search
     enabled: true
     layout:
