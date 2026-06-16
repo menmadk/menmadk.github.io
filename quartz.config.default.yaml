@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: K
+  pageTitle: K's Digital Garden
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -134,9 +134,9 @@ plugins:
     enabled: true
     options:
       localGraph:
-        showTags: false
+        showTags: true
       globalGraph:
-        showTags: false
+        showTags: true
     layout:
       position: afterBody
       priority: 10

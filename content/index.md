@@ -1,5 +1,5 @@
 ---
-title: "MENMAD K's Digital Garden"
+title: "K's Digital Garden"
 date: 2026-06-15
 ---
 
