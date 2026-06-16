@@ -5,7 +5,8 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: google
+    tagId: "G-QJ6SJ4NE82"
   locale: ko-KR
   baseUrl: menmadk.github.io
   ignorePatterns:
