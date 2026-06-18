@@ -95,6 +95,58 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+        
+        {/* Custom Share Button Script */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.addEventListener("nav", () => {
+                const existingBtn = document.getElementById("share-btn-custom");
+                if (existingBtn) existingBtn.remove();
+                
+                const titleEl = document.querySelector("h1.article-title");
+                if (titleEl) {
+                  const btn = document.createElement("button");
+                  btn.id = "share-btn-custom";
+                  btn.title = "링크 복사 / 공유하기";
+                  // 작은 네모 박스에 우측 상단으로 나가는 화살표 (External Link 아이콘)
+                  btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>';
+                  
+                  // 디자인: 주변 텍스트/테마와 어울리게, 타이틀 우측에 인라인으로 배치
+                  btn.style.cssText = "display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; margin-left: 12px; background: transparent; color: var(--gray); border: 1px solid var(--lightgray); border-radius: 6px; cursor: pointer; transition: all 0.2s ease; vertical-align: middle; padding: 0;";
+                  
+                  // 마우스 호버 시 포인트 색상으로 변경
+                  btn.onmouseover = () => {
+                    btn.style.color = "var(--secondary)";
+                    btn.style.borderColor = "var(--secondary)";
+                    btn.style.background = "var(--highlight)";
+                  };
+                  btn.onmouseout = () => {
+                    btn.style.color = "var(--gray)";
+                    btn.style.borderColor = "var(--lightgray)";
+                    btn.style.background = "transparent";
+                  };
+                  
+                  btn.onclick = () => {
+                    if (navigator.share) {
+                      navigator.share({
+                        title: document.title,
+                        url: window.location.href
+                      }).catch(console.error);
+                    } else {
+                      navigator.clipboard.writeText(window.location.href)
+                        .then(() => alert("링크가 클립보드에 복사되었습니다!"))
+                        .catch(console.error);
+                    }
+                  };
+                  
+                  // 제목 바로 옆에 붙이기
+                  titleEl.appendChild(btn);
+                }
+              });
+            `
+          }}
+        />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
