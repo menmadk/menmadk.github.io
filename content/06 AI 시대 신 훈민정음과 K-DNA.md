@@ -56,6 +56,9 @@ tags:
   word-break: keep-all; 
   box-shadow: inset 0 0 20px rgba(200, 190, 170, 0.2), 0 4px 15px rgba(0,0,0,0.05);
 }
+.manifesto-box p {
+  color: #2c2825 !important;
+}
 .manifesto-title {
   margin-top: 0; 
   margin-bottom: 1.5em; 
@@ -63,11 +66,29 @@ tags:
   border-bottom: 2px solid #8c2121;
   padding-bottom: 0.8em; 
   display: inline-block;
-  color: #8c2121;
+  color: #8c2121 !important;
 }
 .manifesto-keyword {
-  color: #8c2121;
+  color: #8c2121 !important;
   font-weight: 700;
+}
+
+/* Dark Mode 벼루(Inkstone) Theme */
+:root[saved-theme="dark"] .manifesto-box {
+  background-color: #1e1b18 !important;
+  border: 1px solid #3d3833 !important;
+  color: #d4d0c8 !important;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5), 0 4px 15px rgba(0,0,0,0.2) !important;
+}
+:root[saved-theme="dark"] .manifesto-box p {
+  color: #d4d0c8 !important;
+}
+:root[saved-theme="dark"] .manifesto-title {
+  color: #cc4a4a !important;
+  border-bottom: 2px solid #cc4a4a !important;
+}
+:root[saved-theme="dark"] .manifesto-keyword {
+  color: #cc4a4a !important;
 }
 </style>
 <div class="manifesto-box">
