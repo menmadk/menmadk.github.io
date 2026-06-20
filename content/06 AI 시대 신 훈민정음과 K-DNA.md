@@ -125,12 +125,12 @@ tags:
 <div class="manifesto-box">
   <h4 class="manifesto-title">📜 AI 시대 신(新) 훈민정음 K-DNA</h4>
   <p style="margin-bottom: 1.2em;">나랏 문화와 얼이 서양의 거대 인공지능이 학습한 데이터와 달라,<br>
-  그들의 알고리즘으로는 우리의 고유한 문화적 맥락이 온전히 통하지 아니할새.</p>
+  <span class="manifesto-keyword">그들의 알고리즘</span>으로는 우리의 고유한 문화적 맥락이 온전히 통하지 아니할새.</p>
   <p style="margin-bottom: 1.2em;">이런 까닭에 미래 세대가 인공지능을 빌려 문화를 창조하고자 하여도,<br>
-  우리의 데이터 인프라(K-Data)가 비어 있어 결국 낯선 세계관에 종속될 우려가 크니라.</p>
+  <span class="manifesto-keyword">우리의 데이터 인프라(K-Data)</span>가 비어 있어 결국 낯선 세계관에 종속될 우려가 크니라.</p>
   <p style="margin-bottom: 1.2em;">이러한 지식 주권의 위기를 깊이 경계하여,<br>
-  우리의 서사와 원천 IP를 기계가 스스로 읽고 융합할 수 있도록 새로이 <span class="manifesto-keyword">'문화 데이터(K-DNA)'</span>를 제안하노니,<br>
-  이 데이터의 지능화(Culture AX)가 곧 진정한 소버린 AI의 완성이요, 국가의 인지적 안보라.</p>
+  우리의 서사와 원천 IP를 기계가 스스로 읽고 융합할 수 있도록 새로이 <span class="manifesto-keyword">문화 데이터(K-DNA)</span>를 제안하노니,<br>
+  이 데이터의 지능화(Culture AX)가 곧 진정한 소버린 AI의 완성이요, <span class="manifesto-keyword">국가의 인지적 안보</span>라.</p>
   <p style="margin-bottom: 0;">바라건대, 누구나 이 K-DNA 인프라를 수월하게 다루어 창작에 편안하게 할 따름이며,<br>
   나아가 온 세계가 우리의 문화를 능동적인 원천 데이터로 활용하게 하여, 다가올 AI 시대의 굳건한 백년지대계로 삼고자 하노라.</p>
 </div>
