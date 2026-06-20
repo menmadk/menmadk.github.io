@@ -113,7 +113,7 @@ tags:
 }
 </style>
 <div class="manifesto-box">
-  <h4 class="manifesto-title">📜 신(新) 훈민정음 서문 : K-DNA 창제 선언</h4>
+  <h4 class="manifesto-title">📜 AI 시대 신(新) 훈민정음, K-DNA 창제 서문</h4>
   <p style="margin-bottom: 1.2em;">나랏 문화와 얼이 서양의 거대 인공지능이 품은 앎(데이터)과 달라,<br>
   그들의 잣대와 알고리즘으로는 우리의 깊은 정(情)과 고유한 미학이 서로 온전히 통하지 아니할새.</p>
   <p style="margin-bottom: 1.2em;">이런 까닭에 지혜로운 백성과 미래 세대가 인공지능을 빌려 뜻을 펴고 문화를 짓고자 하여도,<br>
