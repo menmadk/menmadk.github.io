@@ -117,7 +117,7 @@ tags:
   우리의 서사와 원천 IP를 기계가 스스로 읽고 융합할 수 있도록 새로이 <span class="manifesto-keyword">문화 데이터(K-DNA)</span>를 제안하노니,<br>
   이 데이터의 지능화(Culture AX)가 곧 진정한 소버린 AI의 완성이요, <span class="manifesto-keyword">국가의 인지적 안보</span>라.</p>
   <p style="margin-bottom: 0;">바라건대, 누구나 이 K-DNA 인프라를 수월하게 다루어 창작에 편안하게 할 따름이며,<br>
-  나아가 온 세계가 우리의 문화를 능동적인 원천 데이터로 활용하게 하여, 다가올 AI 시대의 굳건한 백년지대계(百年之大計)로 삼고자 하노라.</p>
+  나아가 온 세계가 우리의 문화를 능동적인 원천 데이터로 활용하게 하여, 다가올 AI 시대의 굳건한 <span class="manifesto-keyword">백년지대계(百年之大計)</span>로 삼고자 하노라.</p>
 </div>
 
 > [!NOTE] **훈민정음 어제서문**
