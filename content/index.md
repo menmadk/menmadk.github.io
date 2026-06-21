@@ -1,5 +1,5 @@
 ---
-title: "K's Digital Garden"
+title: "K's Garden"
 date: 2026-06-15
 ---
 
