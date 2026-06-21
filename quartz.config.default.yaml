@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: 케이가든
+  pageTitle: KDG
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
