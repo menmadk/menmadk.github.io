@@ -139,3 +139,8 @@ tags:
 ---
 > 💡 **이 사고의 흐름은 다음 주제로 이어집니다.**
 > ⬅️ **이전 고찰:** [[05 알고리즘 시대, 뉴미디어 생존 공식]]
+
+
+<br>
+
+© 2026. MENMAD/KANGMOONYOUNG. All rights reserved.

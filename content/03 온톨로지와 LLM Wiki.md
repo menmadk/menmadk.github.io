@@ -51,3 +51,8 @@ tags:
 > 💡 **이 사고의 흐름은 다음 주제로 이어집니다.**
 > ⬅️ **이전 고찰:** [[02 SEO, GEO, AEO와 링크드인 전략]]
 > ➡️ **다음 고찰:** [[04 로컬 에이전트와 지식 거버넌스]]
+
+
+<br>
+
+© 2026. MENMAD/KANGMOONYOUNG. All rights reserved.

@@ -38,3 +38,8 @@ tags:
 > 💡 **이 사고의 흐름은 다음 주제로 이어집니다.**
 > ⬅️ **이전 고찰:** [[01 디지털 가든과 투트랙 전략]]
 > ➡️ **다음 고찰:** [[03 온톨로지와 LLM Wiki]]
+
+
+<br>
+
+© 2026. MENMAD/KANGMOONYOUNG. All rights reserved.
